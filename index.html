@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip</title>
+
+    <style>
+        .items{
+            color: crimson;
+        }
+
+        p{
+            background-color: darkblue;
+        }
+
+        #question{
+            background-color: red;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1 style=" text-align: center;
+        color: brown;">
+           Trip
+        </h1>
+
+
+
+    </header>
+    <main>
+        <p style="color:blue;" id="question1" >
+            what's your name?
+        </p>
+
+
+        <p style="color:red;" id="question2" >
+            what's your age?
+        </p>
+
+        <p style="color:pink;" id="question3" >
+            what's your favourite place?
+        </p>
+
+        <p style="color:yellow;" id="question4" >
+            what's your Travel?
+        </p>
+
+        <p style="color:gray;" id="question5" >
+            when your travel?
+        </p>
+        
+
+    </main>
+    <footer>
+        &copy; 2021ASAC
+
+        <script>
+            // Question 1
+            let Name=prompt('what\'s your name?');
+            console.log('this is for user name',Name);
+            alert('Welcome '+ Name);
+
+            // Question 2
+            let age =prompt('what\'s your age?');
+            console.log(age);
+            alert('Happy life, '+ Name);
+
+            // Question 3
+            let Place=prompt('whats your favourite place');
+            alert('Azaming place'+ Place);
+
+            // Question 4
+            let Need=prompt('Do you want to travel to ' + Place);
+            
+            if (Need = "Yes"){
+
+                alert('Have a nice trip');   
+            }
+            else if (Need = "No"){
+                alert('Think again');
+            }
+            
+            // Question 5
+            let Time=prompt('When your travel ?');
+            alert('Have a nice trip'); 
+
+
+        </script>
+
+    </footer>
+
+</body>
+
+</html>
